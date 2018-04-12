@@ -70,7 +70,7 @@ input[name="join-submit"] {
   width: 100%;
   height: 50px;
   font-size: 14px;
-  color: #CFCFCF;
-  background-color: #5E5E5E;
+  color: $copyright-bg-color;
+  background-color: $copyright-text-color;
   @extend .align-center;
 }
