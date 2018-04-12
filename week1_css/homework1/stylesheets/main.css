@@ -524,6 +524,7 @@ input[name="join-submit"] {
   color: #FFFFFF;
   border: none;
   background-color: #405357;
+  cursor: pointer;
 }
 
 .copyright {

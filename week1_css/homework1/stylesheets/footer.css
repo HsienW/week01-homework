@@ -5,7 +5,7 @@ Use "@extend .align-center !optional" if the extend should be able to fail.
 
 
 Backtrace:
-D:/training_homework/week1_css/homework1/sass/footer.scss:74
+D:/training_homework/week1_css/homework1/sass/footer.scss:75
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/extend.rb:62:in `block in check_extends_fired!'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/util/subset_map.rb:105:in `block in each_value'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/util/subset_map.rb:105:in `each'
