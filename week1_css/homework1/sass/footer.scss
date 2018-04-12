@@ -1,4 +1,5 @@
 @import "variable";
+@import "common";
 
 .footer {
   width: 100%;
@@ -73,4 +74,12 @@ input[name="join-submit"] {
   color:  $copyright-text-color;
   background-color:$copyright-bg-color;
   @extend .align-center;
+}
+
+.social-icon {
+  @include icon(20px, 30px);
+}
+
+.card-icon {
+  @include icon(33px, 20px);
 }
