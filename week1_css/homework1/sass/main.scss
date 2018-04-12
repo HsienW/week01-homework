@@ -1,170 +1,29 @@
 @import "variable";
 @import "reset";
+@import "header";
+@import "content";
+@import "footer";
+
+body {
+  font-family: "Microsoft Sans Serif";
+}
+
+.align-center {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
 
 @mixin icon($width, $height) {
   width: $width;
   height: $height;
-  margin: 8px;
+  margin: 8px 12px 8px 0;
   cursor: pointer;
 }
 
-a {
-  color: $text-color-b;
-  &:link {
-    text-decoration: none;
-    background-color: rgba(0, 0, 0, 0);
-  }
-}
-
-.header {
-  width: 100%;
-  height: calc(100% - 200px);
-  display: flex;
-  justify-content: center;
-  ul {
-    min-width: 960px;
-    display: inline-flex;
-    align-items: center;
-    li {
-      width: 100%;
-      cursor: pointer;
-      color: $text-color-b;
-      #home-link {
-        width: 80px;
-        color: $gray-color;
-        font-size: 20px;
-        border-bottom: 3px solid $gray-color;
-        cursor: pointer;
-      }
-    }
-  }
-}
-
-.content {
-  width: 100%;
-  background-color: $bg-color;
-}
-
-.prd {
-  max-width: $main-width;
-  margin: auto;
-}
-
-.prd-item-a {
-  width: 100%;
-  column-count: 2;
-  column-gap: 0px;
-}
-
-.prd-item-a-show {
-  width: 480px;
-  height: 400px;
-  background-color: $blue-color;
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  div {
-    width: 270px;
-    margin-left: 40px;
-  }
-  p {
-    font-size: 40px;
-    margin: 0;
-  }
-  #create-link {
-    color: white;
-    font-size: 24px;
-    border-bottom: 3px solid #405357;
-    margin-top: 14px;
-    cursor: pointer;
-  }
-}
-
-.prd-item-b {
-  width: 100%;
-  padding-bottom: 14px;
-}
-
-.prd-item-b-show {
-  width: 100%;
-  column-count: 3;
-  column-gap: 10px;
-  padding-top: 14px;
-}
-
-.items {
-  cursor: pointer;
-}
-
-.items-type {
-  width: 302px;
-  height: 150px;
-  background-color: $blue-color;
-  cursor: pointer;
-  div {
-    height: 50%;
-    font-size: 44px;
-    color: $text-color-w;
-    text-align: center;
-    padding-top: 46px;
-  }
-}
-
-.footer {
-  width: 100%;
-  height: 260px;
-  display: flex;
-  justify-content: center;
-  background-color: $blue-color;
-  div {
-    min-width: 900px;
-    height: 260px;
-    display: inline-flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-}
-
-.footer-item {
-  min-width: 200px;
-  height: 60%;
-  font-size: 16px;
-  color: $text-color-w;
-  li {
-    line-height: 32px;
-  }
-}
-
-.footer-item-join {
-  min-width: 400px;
-  height: 60%;
-  font-size: 16px;
-  color: $text-color-w;
-}
-
-.footer-item-icon {
-  width: 100%;
-  display: inline-flex;
-  justify-content: start;
-  align-items: center;
-  cursor: pointer;
-}
-
-.footer-join-form > input {
-  width: 100%;
-  height: 36px;
-  margin: 6px 0;
-  font-size: 20px;
-  border: none;
-  background-color: #D6D6D6;
-  text-indent: 10px;
-}
-
-input[name="join-submit"] {
-  height: 40px;
-  color: $text-color-w;
-  border: none;
-  background-color: $gray-color;
+.arrow-icon {
+  @include icon(22px, 22px);
+  margin: 0;
 }
 
 .social-icon {
@@ -172,15 +31,5 @@ input[name="join-submit"] {
 }
 
 .card-icon {
-  @include icon(30px, 30px);
-}
-
-.copyright {
-  width: 100%;
-  height: 50px;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  color: $text-color-w;
-  background-color: slategray;
+  @include icon(33px, 20px);
 }
