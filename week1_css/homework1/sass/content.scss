@@ -1,0 +1,124 @@
+@import "variable";
+
+#home-link {
+  height: 24px;
+  width: 88px;
+  color: $main-text-color;
+  font-size: 21px;
+  border-bottom: 3px solid $main-text-color;
+  cursor: pointer;
+  text-align: center;
+  a {
+    text-decoration: none;
+    color: $main-text-color;
+  }
+}
+
+.content {
+  width: 100%;
+  background-color: $bg-color;
+}
+
+.prd {
+  max-width: $main-width;
+  margin: auto;
+}
+
+.prd-item-a {
+  width: 100%;
+  column-count: 2;
+  column-gap: 0;
+  margin-bottom: 14px;
+}
+
+.prd-item-a-show {
+  width: 490px;
+  height: 387px;
+  background-color: $main-color;
+  justify-content: start;
+  align-items: center;
+  p {
+    width: 270px;
+    color: $main-text-color;
+    font-weight: 900;
+    font-size: 40px;
+    margin: 0;
+    padding-left: 40px;
+  }
+  :first-child {
+    padding-top: 50px;
+  }
+  #create-link {
+    height: 34px;
+    color: white;
+    font-weight: 100;
+    font-size: 24px;
+    border-bottom: 3px solid $baseline-color;
+    margin: 14px 0 0 40px;
+    padding-left: 0;
+    cursor: pointer;
+  }
+}
+
+.prd-item-a-show-btn {
+  width: 490px;
+  height: 134px;
+  position: absolute;
+  margin-top: 125px;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  div {
+    width: 32px;
+    height: 100%;
+    cursor: pointer;
+    background-color: $slide-btn-color;
+    @extend .align-center;
+    &:hover {
+      background-color: $slide-btn-hover-color;
+    }
+  }
+}
+
+.prd-item-b {
+  width: 100%;
+}
+
+.prd-item-b-show-one {
+  width: 100%;
+  height: 674px;
+  column-count: 3;
+  justify-content: space-between;
+}
+
+.prd-item-b-show-two {
+  @extend .prd-item-b-show-one;
+}
+
+.items {
+  margin-bottom: 18px;
+  cursor: pointer;
+}
+
+.items-type {
+  width: 314px;
+  height: 170px;
+  background-color: $main-color;
+  cursor: pointer;
+  div {
+    height: 50%;
+    font-weight: 500;
+    font-size: 44px;
+    color: $general-text-color;
+    text-align: center;
+    padding-top: 62px;
+  }
+}
+
+.items-tooltip {
+  position: absolute;
+  height: 20px;
+  padding: 13px 22px;
+  color: $general-text-color;
+  background-color: $main-color;
+}
