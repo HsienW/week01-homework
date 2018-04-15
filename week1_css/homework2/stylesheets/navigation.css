@@ -1,0 +1,43 @@
+/* line 3, ../sass/navigation.scss */
+.navigation {
+  background: url(../images/bg-header.jpg);
+  height: 130px;
+  display: flex;
+  justify-content: center;
+}
+/* line 8, ../sass/navigation.scss */
+.navigation > div {
+  align-items: center;
+  justify-content: space-between;
+  display: inline-flex;
+  margin: auto;
+  width: 930px;
+}
+/* line 17, ../sass/navigation.scss */
+.navigation ul {
+  display: inline-flex;
+  margin: 0;
+}
+/* line 20, ../sass/navigation.scss */
+.navigation ul li {
+  width: 110px;
+  height: 130px;
+  text-align: center;
+}
+/* line 24, ../sass/navigation.scss */
+.navigation ul li a {
+  width: 110px;
+  height: 130px;
+  color: #787B66;
+  display: block;
+  letter-spacing: .075em;
+  line-height: 150px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #FFFFFF;
+}
+/* line 34, ../sass/navigation.scss */
+.navigation ul li a:hover {
+  background: url(../images/bg-nav-selected.png) repeat-x;
+  color: #1BB5AC;
+}

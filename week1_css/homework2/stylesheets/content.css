@@ -1,0 +1,63 @@
+/* line 3, ../sass/content.scss */
+.content {
+  background-color: #F5F5F3;
+}
+
+/* line 7, ../sass/content.scss */
+.prd {
+  width: 900px;
+  padding: 38px 0;
+  margin: auto;
+}
+
+/* line 13, ../sass/content.scss */
+.prd-item-detail {
+  height: 300px;
+  width: 460px;
+}
+
+/* line 18, ../sass/content.scss */
+.prd-item-type-one, .prd-item-type-two {
+  height: 300px;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* line 24, ../sass/content.scss */
+.prd-item-type-one h3, .prd-item-type-two h3 {
+  font-size: 20px;
+  color: #E49E06;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  line-height: 24px;
+  text-align: right;
+  margin-bottom: 3px;
+}
+/* line 33, ../sass/content.scss */
+.prd-item-type-one .prd-item-detail-text, .prd-item-type-two .prd-item-detail-text {
+  font-size: 12px;
+  text-align: right;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  display: block;
+  align-content: space-between;
+  color: #959595;
+}
+/* line 41, ../sass/content.scss */
+.prd-item-type-one .prd-item-detail-text a, .prd-item-type-two .prd-item-detail-text a {
+  color: #959595;
+}
+
+/* line 47, ../sass/content.scss */
+.prd-item-type-two {
+  flex-direction: row-reverse;
+}
+/* line 49, ../sass/content.scss */
+.prd-item-type-two h3 {
+  text-align: left;
+}
+/* line 52, ../sass/content.scss */
+.prd-item-type-two .prd-item-detail-text {
+  text-align: left;
+}
