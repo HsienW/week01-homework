@@ -1,0 +1,9 @@
+body {
+  font-family: "Microsoft Sans Serif";
+}
+
+.align-center {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
