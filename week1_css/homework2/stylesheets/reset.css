@@ -340,3 +340,8 @@ template, [hidden] {
 ol, ul {
   list-style: none;
 }
+
+/* line 353, ../sass/reset.scss */
+p {
+  margin: 0;
+}

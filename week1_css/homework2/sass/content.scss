@@ -1,6 +1,6 @@
 @import "variable";
 
-.content {
+.wrapper {
   background-color: $bg-color;
 }
 
@@ -10,46 +10,50 @@
   margin: auto;
 }
 
-.prd-item-detail {
-  height: 300px;
-  width: 460px;
-}
-
-.prd-item-type-one {
+.prd-item {
   height: 300px;
   margin-bottom: 40px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  h3 {
-    font-size: 20px;
-    color: $title-text-color;
-    font-weight: 400;
-    letter-spacing: 0.1em;
-    line-height: 24px;
-    text-align: right;
-    margin-bottom: 3px;
-  }
-  .prd-item-detail-text {
-    font-size: 12px;
-    text-align: right;
-    line-height: 24px;
-    letter-spacing: 0.05em;
+}
+
+.prd-item-container {
+  height: 300px;
+  width: 460px;
+}
+
+.item-content {
+  padding-top: 20px;
+}
+
+.content-title {
+  font-size: 20px;
+  color: $title-text-color;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  line-height: 24px;
+  text-align: right;
+}
+
+.content-text {
+  font-size: 12px;
+  text-align: right;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  color: $detail-text-color;
+  a {
     color: $detail-text-color;
-    a {
-      color: $detail-text-color;
-    }
   }
 }
 
-.prd-item-type-two {
+.item-reverse {
   flex-direction: row-reverse;
-  h3 {
+  .content-title {
     text-align: left;
   }
-  .prd-item-detail-text {
+  .content-text {
     text-align: left;
   }
-  @extend .prd-item-type-one;
 }
 
