@@ -1,0 +1,67 @@
+/* line 3, ../sass/public.scss */
+body {
+  font-family: "Microsoft Sans Serif";
+}
+
+/* line 4, ../sass/footer.scss */
+.footer {
+  width: 100%;
+  height: 130px;
+  background: url(../images/bg-footer.png) repeat-x;
+}
+/* line 8, ../sass/footer.scss */
+.footer > div {
+  width: 940px;
+  height: 50%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* line 18, ../sass/footer.scss */
+.copyright {
+  color: #5BDEE6;
+  display: block;
+  float: left;
+  margin: 20px 0;
+}
+
+/* line 25, ../sass/footer.scss */
+.social-link {
+  width: 200px;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+/* line 31, ../sass/footer.scss */
+#google {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  background: url(../images/icons.png) no-repeat 0 0;
+}
+
+/* line 35, ../sass/footer.scss */
+#contact {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  background: url(../images/icons.png) no-repeat -31px 0;
+}
+
+/* line 39, ../sass/footer.scss */
+#facebook {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  background: url(../images/icons.png) no-repeat -62px 0;
+}
+
+/* line 43, ../sass/footer.scss */
+#twitter {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  background: url(../images/icons.png) no-repeat -93px 0;
+}
