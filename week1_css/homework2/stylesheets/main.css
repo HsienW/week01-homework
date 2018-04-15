@@ -494,24 +494,22 @@ body {
   text-align: right;
   line-height: 24px;
   letter-spacing: 0.05em;
-  display: block;
-  align-content: space-between;
   color: #959595;
 }
-/* line 41, ../sass/content.scss */
+/* line 39, ../sass/content.scss */
 .prd-item-type-one .prd-item-detail-text a, .prd-item-type-two .prd-item-detail-text a {
   color: #959595;
 }
 
-/* line 47, ../sass/content.scss */
+/* line 45, ../sass/content.scss */
 .prd-item-type-two {
   flex-direction: row-reverse;
 }
-/* line 49, ../sass/content.scss */
+/* line 47, ../sass/content.scss */
 .prd-item-type-two h3 {
   text-align: left;
 }
-/* line 52, ../sass/content.scss */
+/* line 50, ../sass/content.scss */
 .prd-item-type-two .prd-item-detail-text {
   text-align: left;
 }
