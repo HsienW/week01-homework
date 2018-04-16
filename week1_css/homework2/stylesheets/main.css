@@ -341,6 +341,11 @@ ol, ul {
   list-style: none;
 }
 
+/* line 353, ../sass/reset.scss */
+p {
+  margin: 0;
+}
+
 /* line 3, ../sass/public.scss */
 body {
   font-family: "Microsoft Sans Serif";
@@ -453,7 +458,7 @@ body {
 }
 
 /* line 3, ../sass/content.scss */
-.content {
+.wrapper {
   background-color: #F5F5F3;
 }
 
@@ -465,52 +470,58 @@ body {
 }
 
 /* line 13, ../sass/content.scss */
-.prd-item-detail {
-  height: 300px;
-  width: 460px;
-}
-
-/* line 18, ../sass/content.scss */
-.prd-item-type-one, .prd-item-type-two {
+.prd-item {
   height: 300px;
   margin-bottom: 40px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-/* line 24, ../sass/content.scss */
-.prd-item-type-one h3, .prd-item-type-two h3 {
+
+/* line 21, ../sass/content.scss */
+.prd-item-container {
+  height: 300px;
+  width: 460px;
+}
+
+/* line 26, ../sass/content.scss */
+.item-content {
+  padding-top: 20px;
+}
+
+/* line 30, ../sass/content.scss */
+.content-title {
   font-size: 20px;
   color: #E49E06;
   font-weight: 400;
   letter-spacing: 0.1em;
   line-height: 24px;
   text-align: right;
-  margin-bottom: 3px;
 }
-/* line 33, ../sass/content.scss */
-.prd-item-type-one .prd-item-detail-text, .prd-item-type-two .prd-item-detail-text {
+
+/* line 39, ../sass/content.scss */
+.content-text {
   font-size: 12px;
   text-align: right;
   line-height: 24px;
   letter-spacing: 0.05em;
   color: #959595;
 }
-/* line 39, ../sass/content.scss */
-.prd-item-type-one .prd-item-detail-text a, .prd-item-type-two .prd-item-detail-text a {
+/* line 45, ../sass/content.scss */
+.content-text a {
   color: #959595;
 }
 
-/* line 45, ../sass/content.scss */
-.prd-item-type-two {
+/* line 50, ../sass/content.scss */
+.item-reverse {
   flex-direction: row-reverse;
 }
-/* line 47, ../sass/content.scss */
-.prd-item-type-two h3 {
+/* line 52, ../sass/content.scss */
+.item-reverse .content-title {
   text-align: left;
 }
-/* line 50, ../sass/content.scss */
-.prd-item-type-two .prd-item-detail-text {
+/* line 55, ../sass/content.scss */
+.item-reverse .content-text {
   text-align: left;
 }
 
