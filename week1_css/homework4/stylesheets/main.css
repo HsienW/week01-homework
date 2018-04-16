@@ -540,7 +540,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 /* line 111, ../sass/content.scss */
@@ -548,13 +548,14 @@ body {
   display: flex;
   align-items: flex-end;
   width: 300px;
+  cursor: pointer;
 }
-/* line 115, ../sass/content.scss */
+/* line 116, ../sass/content.scss */
 .prd-items > img {
   height: 414px;
 }
 
-/* line 120, ../sass/content.scss */
+/* line 121, ../sass/content.scss */
 .items-tooltip {
   z-index: 100;
   position: absolute;
@@ -632,19 +633,23 @@ body {
 /* line 61, ../sass/footer.scss */
 .copyright {
   width: 400px;
-  color: #303132;
+  color: #D3D3D3;
   margin: auto;
   text-align: center;
 }
+/* line 66, ../sass/footer.scss */
+.copyright a {
+  color: #D3D3D3;
+}
 
-/* line 68, ../sass/footer.scss */
+/* line 71, ../sass/footer.scss */
 .social-link {
   width: 156px;
   display: inline-flex;
   justify-content: space-between;
 }
 
-/* line 74, ../sass/footer.scss */
+/* line 77, ../sass/footer.scss */
 .social-icon {
   width: 18px;
   height: 18px;

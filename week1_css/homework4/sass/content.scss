@@ -105,13 +105,14 @@
   display: flex;
   justify-content: space-evenly;
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .prd-items {
   display: flex;
   align-items: flex-end;
   width: 300px;
+  cursor: pointer;
   > img {
     height: 414px;
   }

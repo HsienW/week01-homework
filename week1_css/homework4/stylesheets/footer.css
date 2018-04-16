@@ -78,19 +78,23 @@ body {
 /* line 61, ../sass/footer.scss */
 .copyright {
   width: 400px;
-  color: #303132;
+  color: #D3D3D3;
   margin: auto;
   text-align: center;
 }
+/* line 66, ../sass/footer.scss */
+.copyright a {
+  color: #D3D3D3;
+}
 
-/* line 68, ../sass/footer.scss */
+/* line 71, ../sass/footer.scss */
 .social-link {
   width: 156px;
   display: inline-flex;
   justify-content: space-between;
 }
 
-/* line 74, ../sass/footer.scss */
+/* line 77, ../sass/footer.scss */
 .social-icon {
   width: 18px;
   height: 18px;

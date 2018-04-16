@@ -127,7 +127,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 /* line 111, ../sass/content.scss */
@@ -135,13 +135,14 @@ body {
   display: flex;
   align-items: flex-end;
   width: 300px;
+  cursor: pointer;
 }
-/* line 115, ../sass/content.scss */
+/* line 116, ../sass/content.scss */
 .prd-items > img {
   height: 414px;
 }
 
-/* line 120, ../sass/content.scss */
+/* line 121, ../sass/content.scss */
 .items-tooltip {
   z-index: 100;
   position: absolute;
