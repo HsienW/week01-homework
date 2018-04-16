@@ -1,0 +1,11 @@
+/* line 3, ../sass/public.scss */
+body {
+  font-family: "Microsoft Sans Serif";
+}
+
+/* line 7, ../sass/public.scss */
+.align-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,103 @@
+/* line 3, ../sass/public.scss */
+body {
+  font-family: "Microsoft Sans Serif";
+}
+
+/* line 7, ../sass/public.scss */
+.align-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 4, ../sass/footer.scss */
+.footer {
+  width: 100%;
+  height: 244px;
+  background-color: #303132;
+}
+
+/* line 10, ../sass/footer.scss */
+.footer-content {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  padding: 20px 0 45px 0;
+  margin: 0 auto;
+  width: 980px;
+  height: 50%;
+}
+
+/* line 20, ../sass/footer.scss */
+.footer-items {
+  display: block;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0;
+  width: 298px;
+  font-size: 16px;
+  text-align: center;
+  color: #D3D3D3;
+}
+
+/* line 31, ../sass/footer.scss */
+.item-title {
+  margin: 12px 0 20px 0;
+}
+
+/* line 35, ../sass/footer.scss */
+.footer-join-form {
+  height: 90px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+/* line 40, ../sass/footer.scss */
+.footer-join-form > input {
+  width: 298px;
+  height: 35px;
+  border: none;
+  font-size: 18px;
+  text-indent: 10px;
+  background-color: #535151;
+}
+/* line 48, ../sass/footer.scss */
+.footer-join-form [name="join-submit"] {
+  height: 43px;
+  font-size: 16px;
+  color: #303132;
+  background-color: #D3D3D3;
+  cursor: pointer;
+}
+/* line 55, ../sass/footer.scss */
+.footer-join-form ::placeholder {
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+/* line 61, ../sass/footer.scss */
+.copyright {
+  width: 400px;
+  color: #D3D3D3;
+  margin: auto;
+  text-align: center;
+}
+/* line 66, ../sass/footer.scss */
+.copyright a {
+  color: #D3D3D3;
+}
+
+/* line 71, ../sass/footer.scss */
+.social-link {
+  width: 156px;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+/* line 77, ../sass/footer.scss */
+.social-icon {
+  width: 18px;
+  height: 18px;
+  margin: 8px 12px 8px 0;
+  cursor: pointer;
+}
