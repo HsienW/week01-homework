@@ -27,19 +27,3 @@
   display: inline-flex;
   justify-content: space-between;
 }
-
-#google {
-  @include social-icon(0);
-}
-
-#contact {
-  @include social-icon(-31px);
-}
-
-#facebook {
-  @include social-icon(-62px);
-}
-
-#twitter {
-  @include social-icon(-93px);
-}
