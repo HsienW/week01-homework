@@ -22,10 +22,10 @@ body {
   display: flex;
   align-items: start;
   justify-content: space-between;
-  padding: 20px 0 45px 0;
+  padding: 20px 0;
   margin: 0 auto;
   width: 980px;
-  height: 50%;
+  height: 62%;
 }
 
 /* line 20, ../sass/footer.scss */
