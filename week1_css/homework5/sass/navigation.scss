@@ -1,0 +1,27 @@
+@import "variable";
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+  width: 100%;
+  background-color: $main-color;
+  > div {
+    margin: auto;
+    width: 800px;
+  }
+  ul {
+    display: flex;
+    justify-content: space-around;
+    a {
+      display: flex;
+      text-align: center;
+      font-family: "anticregular";
+      color: $general-color;
+      text-decoration:none;
+      &:hover {
+        color: $minor-color;
+      }
+    }
+  }
+}
