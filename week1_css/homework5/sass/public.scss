@@ -1,0 +1,23 @@
+@import "variable";
+
+body {
+  font-family: "Microsoft Sans Serif";
+}
+
+.align-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.baseline {
+  height: 1px;
+  background-color: $general-color;
+}
+
+@mixin icon($width, $height) {
+  width: $width;
+  height: $height;
+  margin: 8px 12px 8px 0;
+  cursor: pointer;
+}

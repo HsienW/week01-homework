@@ -1,0 +1,30 @@
+/* line 3, ../sass/navigation.scss */
+.navigation {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+  width: 100%;
+  background-color: #000000;
+}
+/* line 9, ../sass/navigation.scss */
+.navigation > div {
+  margin: auto;
+  width: 800px;
+}
+/* line 13, ../sass/navigation.scss */
+.navigation ul {
+  display: flex;
+  justify-content: space-around;
+}
+/* line 16, ../sass/navigation.scss */
+.navigation ul a {
+  display: flex;
+  text-align: center;
+  font-family: "anticregular";
+  color: #FFFFFF;
+  text-decoration: none;
+}
+/* line 22, ../sass/navigation.scss */
+.navigation ul a:hover {
+  color: #BF9515;
+}
