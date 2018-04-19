@@ -1,30 +1,27 @@
 /* line 3, ../sass/navigation.scss */
-.navigation {
+.nav {
   display: flex;
   justify-content: center;
-  padding-bottom: 40px;
+  margin-bottom: 40px;
   width: 100%;
-  background-color: #000000;
 }
-/* line 9, ../sass/navigation.scss */
-.navigation > div {
+
+/* line 10, ../sass/navigation.scss */
+.nav-content {
+  display: flex;
+  justify-content: space-around;
   margin: auto;
   width: 800px;
 }
-/* line 13, ../sass/navigation.scss */
-.navigation ul {
-  display: flex;
-  justify-content: space-around;
-}
-/* line 16, ../sass/navigation.scss */
-.navigation ul a {
+/* line 15, ../sass/navigation.scss */
+.nav-content a {
   display: flex;
   text-align: center;
   font-family: "anticregular";
   color: #FFFFFF;
   text-decoration: none;
 }
-/* line 22, ../sass/navigation.scss */
-.navigation ul a:hover {
+/* line 21, ../sass/navigation.scss */
+.nav-content a:hover {
   color: #BF9515;
 }

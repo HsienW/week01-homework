@@ -1,61 +1,67 @@
 /* line 3, ../sass/public.scss */
 body {
   font-family: "Microsoft Sans Serif";
+  background-color: #000000;
 }
 
-/* line 7, ../sass/public.scss */
+/* line 8, ../sass/public.scss */
 .align-center {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* line 13, ../sass/public.scss */
+/* line 14, ../sass/public.scss */
 .baseline {
   height: 1px;
   background-color: #FFFFFF;
+}
+
+/* line 19, ../sass/public.scss */
+.text-overflow {
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 /* line 4, ../sass/footer.scss */
 .footer {
   width: 100%;
   height: 354px;
-  background-color: #000000;
 }
 
-/* line 10, ../sass/footer.scss */
+/* line 9, ../sass/footer.scss */
 .footer-content {
   display: flex;
-  align-items: start;
   flex-wrap: wrap;
   padding: 20px 0;
   margin: 0 auto;
   width: 980px;
-  height: 80%;
+  height: 354px;
 }
 
-/* line 20, ../sass/footer.scss */
+/* line 18, ../sass/footer.scss */
 .footer-items {
-  display: flex;
+  flex-basis: 245px;
+  height: 100px;
+  flex-grow: 1;
   flex-wrap: wrap;
   padding: 0;
-  width: 248px;
   font-size: 16px;
   color: #BF9515;
 }
 
-/* line 29, ../sass/footer.scss */
+/* line 28, ../sass/footer.scss */
 .map-info {
-  width: 482px;
+  flex-grow: 2;
 }
 
-/* line 33, ../sass/footer.scss */
+/* line 32, ../sass/footer.scss */
 .item-title {
   height: 0;
   margin: 12px 0 46px 0;
 }
 
-/* line 38, ../sass/footer.scss */
+/* line 37, ../sass/footer.scss */
 .item-info {
   display: block;
   height: 100px;
@@ -63,21 +69,21 @@ body {
   color: #FFFFFF;
 }
 
-/* line 45, ../sass/footer.scss */
+/* line 44, ../sass/footer.scss */
 .company-info {
-  width: 450px;
+  flex-grow: 2;
   font-size: 12px;
   color: #FFFFFF;
 }
 
-/* line 51, ../sass/footer.scss */
+/* line 50, ../sass/footer.scss */
 .social-link {
   width: 156px;
   display: inline-flex;
   justify-content: space-between;
 }
 
-/* line 57, ../sass/footer.scss */
+/* line 56, ../sass/footer.scss */
 .social-icon {
   width: 18px;
   height: 18px;

@@ -1,17 +1,24 @@
 /* line 3, ../sass/public.scss */
 body {
   font-family: "Microsoft Sans Serif";
+  background-color: #000000;
 }
 
-/* line 7, ../sass/public.scss */
+/* line 8, ../sass/public.scss */
 .align-center {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* line 13, ../sass/public.scss */
+/* line 14, ../sass/public.scss */
 .baseline {
   height: 1px;
   background-color: #FFFFFF;
+}
+
+/* line 19, ../sass/public.scss */
+.text-overflow {
+  text-overflow: ellipsis;
+  overflow: hidden;
 }

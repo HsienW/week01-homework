@@ -2,6 +2,7 @@
 
 body {
   font-family: "Microsoft Sans Serif";
+  background-color: $bg-color;
 }
 
 .align-center {
@@ -13,6 +14,11 @@ body {
 .baseline {
   height: 1px;
   background-color: $general-color;
+}
+
+.text-overflow {
+  text-overflow : ellipsis;
+  overflow: hidden;
 }
 
 @mixin icon($width, $height) {

@@ -349,29 +349,35 @@ p {
 /* line 3, ../sass/public.scss */
 body {
   font-family: "Microsoft Sans Serif";
+  background-color: #000000;
 }
 
-/* line 7, ../sass/public.scss */
+/* line 8, ../sass/public.scss */
 .align-center, .header, .header-item, .banner, .banner-info, .prd-items-img-mes {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* line 13, ../sass/public.scss */
+/* line 14, ../sass/public.scss */
 .baseline {
   height: 1px;
   background-color: #FFFFFF;
+}
+
+/* line 19, ../sass/public.scss */
+.text-overflow, .prd-items .prd-items-title, .prd-items .prd-items-info, .prd-items-img-mes .mes-title, .prd-items-img-mes .mes-info {
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 /* line 4, ../sass/header.scss */
 .header {
   width: 100%;
   height: 180px;
-  background-color: #000000;
 }
 
-/* line 11, ../sass/header.scss */
+/* line 10, ../sass/header.scss */
 .header-item {
   display: flex;
   justify-content: center;
@@ -379,8 +385,8 @@ body {
   width: 980px;
 }
 
-/* line 19, ../sass/header.scss */
-#home-link {
+/* line 18, ../sass/header.scss */
+.home-link {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -391,67 +397,63 @@ body {
   font-family: "anticregular";
   text-align: center;
 }
-/* line 29, ../sass/header.scss */
-#home-link a {
+/* line 28, ../sass/header.scss */
+.home-link a {
   letter-spacing: 0.1em;
   color: #FFFFFF;
   text-decoration: none;
 }
 
-/* line 36, ../sass/header.scss */
-#slogan {
+/* line 35, ../sass/header.scss */
+.slogan {
   font-size: 18px;
   color: #FFFFFF;
 }
 
-/* line 41, ../sass/header.scss */
+/* line 40, ../sass/header.scss */
 .header-line-l {
   width: 260px;
 }
 
-/* line 45, ../sass/header.scss */
+/* line 44, ../sass/header.scss */
 .header-line-s {
   width: 240px;
 }
 
 /* line 3, ../sass/navigation.scss */
-.navigation {
+.nav {
   display: flex;
   justify-content: center;
-  padding-bottom: 40px;
+  margin-bottom: 40px;
   width: 100%;
-  background-color: #000000;
 }
-/* line 9, ../sass/navigation.scss */
-.navigation > div {
+
+/* line 10, ../sass/navigation.scss */
+.nav-content {
+  display: flex;
+  justify-content: space-around;
   margin: auto;
   width: 800px;
 }
-/* line 13, ../sass/navigation.scss */
-.navigation ul {
-  display: flex;
-  justify-content: space-around;
-}
-/* line 16, ../sass/navigation.scss */
-.navigation ul a {
+/* line 15, ../sass/navigation.scss */
+.nav-content a {
   display: flex;
   text-align: center;
   font-family: "anticregular";
   color: #FFFFFF;
   text-decoration: none;
 }
-/* line 22, ../sass/navigation.scss */
-.navigation ul a:hover {
+/* line 21, ../sass/navigation.scss */
+.nav-content a:hover {
   color: #BF9515;
 }
 
 /* line 4, ../sass/content.scss */
 .wrapper {
   width: 100%;
-  background-color: #000000;
 }
 
-/* line 9, ../sass/content.scss */
+/* line 8, ../sass/content.scss */
 .banner {
   margin: auto;
   width: 980px;
@@ -459,7 +461,7 @@ body {
   background: url(../images/84770f_3dede6ceda0447f587540d7250c63277.jpg) no-repeat;
 }
 
-/* line 17, ../sass/content.scss */
+/* line 16, ../sass/content.scss */
 .banner-info {
   display: flex;
   align-content: space-evenly;
@@ -468,61 +470,65 @@ body {
   flex-wrap: wrap;
 }
 
-/* line 26, ../sass/content.scss */
+/* line 25, ../sass/content.scss */
 .content {
   width: 980px;
   margin: auto;
 }
 
-/* line 31, ../sass/content.scss */
+/* line 30, ../sass/content.scss */
 .content-prd {
   display: flex;
   justify-content: space-between;
   width: 100%;
   margin-bottom: 50px;
+  flex-wrap: wrap;
 }
 
 /* line 38, ../sass/content.scss */
 .prd-items {
+  flex-grow: 1;
   color: #FFFFFF;
-  width: 232px;
   height: 430px;
-  display: flex;
   align-content: space-between;
   flex-wrap: wrap;
   align-items: flex-end;
 }
-/* line 46, ../sass/content.scss */
+/* line 45, ../sass/content.scss */
 .prd-items > img {
   height: 146px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
-/* line 50, ../sass/content.scss */
+/* line 49, ../sass/content.scss */
 .prd-items .prd-items-title {
+  width: 232px;
+  white-space: nowrap;
   font-family: "anticregular";
   font-size: 28px;
   margin: 50px 0 20px 0;
 }
-/* line 55, ../sass/content.scss */
+/* line 57, ../sass/content.scss */
 .prd-items .prd-items-info {
+  margin-bottom: 34px;
+  width: 232px;
   height: 100px;
   font-size: 14px;
   line-height: 1.5em;
 }
 
-/* line 62, ../sass/content.scss */
+/* line 67, ../sass/content.scss */
 .prd-items-link {
   font-size: 14px;
   color: #BF9515;
   cursor: pointer;
 }
 
-/* line 68, ../sass/content.scss */
+/* line 73, ../sass/content.scss */
 .prd-items-img-mes {
   display: flex;
   align-content: center;
   flex-wrap: wrap;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   width: 232px;
   height: 146px;
   color: #FFFFFF;
@@ -530,18 +536,18 @@ body {
   text-align: center;
   background-color: #BF9515;
 }
-/* line 80, ../sass/content.scss */
-.prd-items-img-mes > div {
+/* line 85, ../sass/content.scss */
+.prd-items-img-mes .mes-title {
   width: 100%;
   font-size: 36px;
 }
-/* line 84, ../sass/content.scss */
-.prd-items-img-mes > p {
+/* line 90, ../sass/content.scss */
+.prd-items-img-mes .mes-info {
   width: 100%;
   font-size: 22px;
 }
 
-/* line 90, ../sass/content.scss */
+/* line 97, ../sass/content.scss */
 .reservation {
   display: block;
   justify-content: space-between;
@@ -549,7 +555,7 @@ body {
   height: 230px;
 }
 
-/* line 97, ../sass/content.scss */
+/* line 104, ../sass/content.scss */
 .reservation-title {
   padding: 6% 30% 1%;
   height: 30%;
@@ -558,12 +564,12 @@ body {
   color: #FFFFFF;
 }
 
-/* line 105, ../sass/content.scss */
+/* line 112, ../sass/content.scss */
 .reservation-selector {
   width: 100%;
   padding: 20px 0;
 }
-/* line 108, ../sass/content.scss */
+/* line 115, ../sass/content.scss */
 .reservation-selector > select {
   -webkit-appearance: none;
   margin: 0 6px;
@@ -576,7 +582,7 @@ body {
   border: 1px solid #FFFFFF;
 }
 
-/* line 121, ../sass/content.scss */
+/* line 128, ../sass/content.scss */
 input[name="reservation-submit"] {
   width: 176px;
   height: 40px;
@@ -586,52 +592,50 @@ input[name="reservation-submit"] {
   cursor: pointer;
 }
 
-/* line 130, ../sass/content.scss */
+/* line 137, ../sass/content.scss */
 .content-line {
   width: 100%;
-  cursor: pointer;
 }
 
 /* line 4, ../sass/footer.scss */
 .footer {
   width: 100%;
   height: 354px;
-  background-color: #000000;
 }
 
-/* line 10, ../sass/footer.scss */
+/* line 9, ../sass/footer.scss */
 .footer-content {
   display: flex;
-  align-items: start;
   flex-wrap: wrap;
   padding: 20px 0;
   margin: 0 auto;
   width: 980px;
-  height: 80%;
+  height: 354px;
 }
 
-/* line 20, ../sass/footer.scss */
+/* line 18, ../sass/footer.scss */
 .footer-items {
-  display: flex;
+  flex-basis: 245px;
+  height: 100px;
+  flex-grow: 1;
   flex-wrap: wrap;
   padding: 0;
-  width: 248px;
   font-size: 16px;
   color: #BF9515;
 }
 
-/* line 29, ../sass/footer.scss */
+/* line 28, ../sass/footer.scss */
 .map-info {
-  width: 482px;
+  flex-grow: 2;
 }
 
-/* line 33, ../sass/footer.scss */
+/* line 32, ../sass/footer.scss */
 .item-title {
   height: 0;
   margin: 12px 0 46px 0;
 }
 
-/* line 38, ../sass/footer.scss */
+/* line 37, ../sass/footer.scss */
 .item-info {
   display: block;
   height: 100px;
@@ -639,21 +643,21 @@ input[name="reservation-submit"] {
   color: #FFFFFF;
 }
 
-/* line 45, ../sass/footer.scss */
+/* line 44, ../sass/footer.scss */
 .company-info {
-  width: 450px;
+  flex-grow: 2;
   font-size: 12px;
   color: #FFFFFF;
 }
 
-/* line 51, ../sass/footer.scss */
+/* line 50, ../sass/footer.scss */
 .social-link {
   width: 156px;
   display: inline-flex;
   justify-content: space-between;
 }
 
-/* line 57, ../sass/footer.scss */
+/* line 56, ../sass/footer.scss */
 .social-icon {
   width: 18px;
   height: 18px;

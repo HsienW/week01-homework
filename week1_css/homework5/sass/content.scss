@@ -3,7 +3,6 @@
 
 .wrapper {
   width: 100%;
-  background-color: $main-color;
 }
 
 .banner {
@@ -33,29 +32,35 @@
   justify-content: space-between;
   width: 100%;
   margin-bottom: 50px;
+  flex-wrap: wrap;
 }
 
 .prd-items {
+  flex-grow: 1;
   color: $general-color;
-  width: 232px;
   height: 430px;
-  display: flex;
   align-content: space-between;
   flex-wrap: wrap;
   align-items: flex-end;
   > img {
     height: 146px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   .prd-items-title {
+    width: 232px;
+    white-space: nowrap;
     font-family: "anticregular";
     font-size: 28px;
     margin: 50px 0 20px 0;
+    @extend .text-overflow;
   }
   .prd-items-info {
+    margin-bottom: 34px;
+    width: 232px;
     height: 100px;
     font-size: 14px;
     line-height: 1.5em;
+    @extend .text-overflow;
   }
 }
 
@@ -69,7 +74,7 @@
   display: flex;
   align-content: center;
   flex-wrap: wrap;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   width: 232px;
   height: 146px;
   color: $general-color;
@@ -77,13 +82,15 @@
   text-align: center;
   background-color: $minor-color;
   @extend .align-center;
-  > div {
+  .mes-title {
     width: 100%;
     font-size: 36px;
+    @extend .text-overflow;
   }
-  > p {
+  .mes-info{
     width: 100%;
     font-size: 22px;
+    @extend .text-overflow;
   }
 }
 
@@ -129,5 +136,4 @@ input[name="reservation-submit"] {
 
 .content-line {
   width: 100%;
-  cursor: pointer;
 }

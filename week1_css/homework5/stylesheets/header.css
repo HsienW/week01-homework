@@ -1,29 +1,35 @@
 /* line 3, ../sass/public.scss */
 body {
   font-family: "Microsoft Sans Serif";
+  background-color: #000000;
 }
 
-/* line 7, ../sass/public.scss */
+/* line 8, ../sass/public.scss */
 .align-center, .header, .header-item {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* line 13, ../sass/public.scss */
+/* line 14, ../sass/public.scss */
 .baseline {
   height: 1px;
   background-color: #FFFFFF;
+}
+
+/* line 19, ../sass/public.scss */
+.text-overflow {
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 /* line 4, ../sass/header.scss */
 .header {
   width: 100%;
   height: 180px;
-  background-color: #000000;
 }
 
-/* line 11, ../sass/header.scss */
+/* line 10, ../sass/header.scss */
 .header-item {
   display: flex;
   justify-content: center;
@@ -31,8 +37,8 @@ body {
   width: 980px;
 }
 
-/* line 19, ../sass/header.scss */
-#home-link {
+/* line 18, ../sass/header.scss */
+.home-link {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -43,25 +49,25 @@ body {
   font-family: "anticregular";
   text-align: center;
 }
-/* line 29, ../sass/header.scss */
-#home-link a {
+/* line 28, ../sass/header.scss */
+.home-link a {
   letter-spacing: 0.1em;
   color: #FFFFFF;
   text-decoration: none;
 }
 
-/* line 36, ../sass/header.scss */
-#slogan {
+/* line 35, ../sass/header.scss */
+.slogan {
   font-size: 18px;
   color: #FFFFFF;
 }
 
-/* line 41, ../sass/header.scss */
+/* line 40, ../sass/header.scss */
 .header-line-l {
   width: 260px;
 }
 
-/* line 45, ../sass/header.scss */
+/* line 44, ../sass/header.scss */
 .header-line-s {
   width: 240px;
 }
