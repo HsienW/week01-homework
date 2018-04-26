@@ -37,18 +37,19 @@
 
 .intro {
   display: flex;
-  height: 180px;
-  margin-bottom: 30px;
+  height: 190px;
+  margin-bottom: 40px;
 }
 
 .intro-item {
   display: flex;
   flex-grow: 1;
-  height: 170px;
+  height: 100%;
   padding: 0 20px;
 }
 
 .intro-item-type {
+  padding-left: 20px;
   width: 50%;
   > img {
     margin-bottom: 10px;
@@ -97,7 +98,7 @@
 
 .content {
   width: $main-width;
-  height: 780px;
+  height: 785px;
   display: grid;
   grid-template-columns: 0.25fr 0.25fr 0.25fr 0.25fr;
   grid-template-rows: 0.33fr 0.33fr 0.33fr;
@@ -169,7 +170,6 @@
   justify-content: center;
   .item-img {
     width: 100%;
-    height: 268px;
   }
 }
 
@@ -252,6 +252,7 @@
 .item-video {
   grid-column: 1 / 3;
   grid-row: 3 / 4;
+  padding-left: 20px;
   .video {
     width: 100%;
     height: 100%;
