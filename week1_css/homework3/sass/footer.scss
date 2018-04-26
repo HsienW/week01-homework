@@ -1,0 +1,135 @@
+@import "variable";
+@import "public";
+
+.footer {
+  margin: 0 auto 60px auto;
+  width: $main-width;
+  background-color: $bg-color;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 170px;
+}
+
+.footer-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 245px;
+  height: 100%;
+}
+
+.item-content {
+  height: 80%;
+}
+
+.item-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 2;
+  border-style: solid;
+  border-color: $secondary-color;;
+  border-width: 0 2px 0 2px;
+  > form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    width: 80%;
+    height: 82%;
+  }
+  .input-style {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: $minor-color;
+    text-indent: 10px;
+    background-color: $minor-bg-color;
+    border: 2px $general-color solid;
+    border-radius: 4px;
+    font-family: "anticregular";
+  }
+  [name="profile"] {
+    width: 180px;
+    height: 22px;
+  }
+  [name="message"] {
+    width: 180px;
+    height: 90px;
+    resize:none;
+    outline:none;
+  }
+  [name="form-submit"] {
+    align-self: flex-end;
+    width: 50px;
+    height: 30px;
+    color: $general-color;
+    background-color: $secondary-color;
+    border-color: $secondary-color;
+    text-indent: 0;
+    cursor: pointer;
+    font-family: "Microsoft Sans Serif";
+  }
+}
+
+.item-title {
+  font-size: 16px;
+  color: $secondary-color;
+  margin-bottom: 20px;
+}
+
+.item-info {
+  font-size: 14px;
+  color: $minor-color;
+  font-family: "anticregular";
+  > a {
+    text-decoration: none;
+  }
+}
+
+.social-title {
+  width: 100%;
+  color: $minor-color;
+}
+
+.social-icon {
+  margin: 0 4px;
+  @include icon(36px, 36px);
+}
+
+.footer-nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  ul {
+    width: 300px;
+    font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    font-family: "anticregular";
+    li {
+      width: 100%;
+      cursor: pointer;
+    }
+    a {
+      text-decoration: none;
+      color: $minor-color;
+      &:hover {
+        color: $secondary-color;
+      }
+    }
+  }
+}
+
+.copyright {
+  width: 300px;
+  margin: auto;
+  font-size: 12px;
+  color: $minor-color;
+  text-align: center;
+}

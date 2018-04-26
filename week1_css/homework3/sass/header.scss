@@ -1,0 +1,59 @@
+@import "variable";
+@import "public";
+
+.header {
+  width: $main-width;
+  height: 130px;
+  margin: 0 auto 16px;
+  background-color: $minor-bg-color;
+}
+
+.header-style-strip {
+  display: flex;
+}
+
+.header-item {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  text-decoration: none;
+  @extend .align-center;
+  ul {
+    width: 560px;
+    font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    font-family: "anticregular";
+    li {
+      width: 100%;
+      cursor: pointer;
+    }
+    a {
+       text-decoration: none;
+       color: $minor-color;
+       &:hover {
+         color: $secondary-color;
+       }
+     }
+  }
+}
+
+.home-link {
+  display: flex;
+  justify-content: space-between;
+  width: 306px;
+  font-size: 28px;
+  margin-left: 20px;
+  .lingo {
+    color: $minor-color;
+  }
+  .school {
+    color: $main-color;
+  }
+}
+
+.header-icon {
+  margin-left: 20px;
+  @include icon(55px, 55px);
+}

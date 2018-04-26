@@ -1,0 +1,188 @@
+/* line 3, ../sass/public.scss */
+body {
+  font-family: "Microsoft Sans Serif";
+  background-color: #F3F3F3;
+}
+
+/* line 8, ../sass/public.scss */
+.color-strip {
+  flex-grow: 1;
+  height: 7px;
+}
+
+/* line 13, ../sass/public.scss */
+.main-color {
+  background-color: #E25F5F;
+}
+
+/* line 17, ../sass/public.scss */
+.secondary-color {
+  background-color: #10ACB7;
+}
+
+/* line 21, ../sass/public.scss */
+.minor-color {
+  background-color: #888888;
+}
+
+/* line 25, ../sass/public.scss */
+.align-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 4, ../sass/footer.scss */
+.footer {
+  margin: 0 auto 60px auto;
+  width: 980px;
+  background-color: #F3F3F3;
+}
+
+/* line 10, ../sass/footer.scss */
+.footer-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 170px;
+}
+
+/* line 17, ../sass/footer.scss */
+.footer-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 245px;
+  height: 100%;
+}
+
+/* line 26, ../sass/footer.scss */
+.item-content {
+  height: 80%;
+}
+
+/* line 30, ../sass/footer.scss */
+.item-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 2;
+  border-style: solid;
+  border-color: #10ACB7;
+  border-width: 0 2px 0 2px;
+}
+/* line 38, ../sass/footer.scss */
+.item-form > form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
+  width: 80%;
+  height: 82%;
+}
+/* line 46, ../sass/footer.scss */
+.item-form .input-style {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #888888;
+  text-indent: 10px;
+  background-color: #FFFFFF;
+  border: 2px #FFFFFF solid;
+  border-radius: 4px;
+  font-family: "anticregular";
+}
+/* line 56, ../sass/footer.scss */
+.item-form [name="profile"] {
+  width: 180px;
+  height: 22px;
+}
+/* line 60, ../sass/footer.scss */
+.item-form [name="message"] {
+  width: 180px;
+  height: 90px;
+  resize: none;
+  outline: none;
+}
+/* line 66, ../sass/footer.scss */
+.item-form [name="form-submit"] {
+  align-self: flex-end;
+  width: 50px;
+  height: 30px;
+  color: #FFFFFF;
+  background-color: #10ACB7;
+  border-color: #10ACB7;
+  text-indent: 0;
+  cursor: pointer;
+  font-family: "Microsoft Sans Serif";
+}
+
+/* line 79, ../sass/footer.scss */
+.item-title {
+  font-size: 16px;
+  color: #10ACB7;
+  margin-bottom: 20px;
+}
+
+/* line 85, ../sass/footer.scss */
+.item-info {
+  font-size: 14px;
+  color: #888888;
+  font-family: "anticregular";
+}
+/* line 89, ../sass/footer.scss */
+.item-info > a {
+  text-decoration: none;
+}
+
+/* line 94, ../sass/footer.scss */
+.social-title {
+  width: 100%;
+  color: #888888;
+}
+
+/* line 99, ../sass/footer.scss */
+.social-icon {
+  margin: 0 4px;
+  width: 36px;
+  height: 36px;
+}
+
+/* line 104, ../sass/footer.scss */
+.footer-nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+/* line 108, ../sass/footer.scss */
+.footer-nav ul {
+  width: 300px;
+  font-size: 16px;
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  font-family: "anticregular";
+}
+/* line 115, ../sass/footer.scss */
+.footer-nav ul li {
+  width: 100%;
+  cursor: pointer;
+}
+/* line 119, ../sass/footer.scss */
+.footer-nav ul a {
+  text-decoration: none;
+  color: #888888;
+}
+/* line 122, ../sass/footer.scss */
+.footer-nav ul a:hover {
+  color: #10ACB7;
+}
+
+/* line 129, ../sass/footer.scss */
+.copyright {
+  width: 300px;
+  margin: auto;
+  font-size: 12px;
+  color: #888888;
+  text-align: center;
+}
