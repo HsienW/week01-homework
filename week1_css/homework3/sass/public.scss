@@ -28,6 +28,12 @@ body {
   align-items: center;
 }
 
+@mixin box-column {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 @mixin border-style($width, $color) {
   border-left: $width $color solid;
 }
